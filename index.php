@@ -14,11 +14,26 @@ $collection->addItem(['code' => 'F', 'amount' => 5.00, 'count' => 0, 'code_id' =
 $pos = new PointOfSale($collection);
 
 
+// $pos->scanProduct('A');
+// $pos->scanProduct('B');
+// $pos->scanProduct('C');
+// $pos->scanProduct('D');
+// $pos->scanProduct('A');
+// $pos->scanProduct('B');
+// $pos->scanProduct('A');
+
+// $pos->scanProduct('C');
+// $pos->scanProduct('C');
+// $pos->scanProduct('C');
+// $pos->scanProduct('C');
+// $pos->scanProduct('C');
+// $pos->scanProduct('C');
+// $pos->scanProduct('C');
+
 $pos->scanProduct('A');
 $pos->scanProduct('B');
 $pos->scanProduct('C');
 $pos->scanProduct('D');
-
 
 echo $pos->getTotal().PHP_EOL;
 
